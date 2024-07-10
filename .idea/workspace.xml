@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit readme">
-      <change afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" afterDir="false" />
+    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit script match html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720523269092</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit script match html">
+      <option name="closed" value="true" />
+      <created>1720605493515</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1720605493515</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +334,7 @@
     <MESSAGE value="commit Table end 2" />
     <MESSAGE value="commit Table end 3" />
     <MESSAGE value="commit readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit readme" />
+    <MESSAGE value="commit script match html" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit script match html" />
   </component>
 </project>

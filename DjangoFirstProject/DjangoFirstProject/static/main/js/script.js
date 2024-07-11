@@ -5,31 +5,21 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 let temp = document.getElementById('temp')
-temp.set-attribute('value', 10)
+console.log(temp.innerHTML)
+temp.innerHTML = "15%"
+
+let response = await fetch('/get_params');
+
+// получить один заголовок
+alert(response.headers.get('cpu MHz'));
+    
+console.log(temp.innerHTML(response.headers.get('cpu MHz')))
 
 
-let loadaverage = fetch(url, [options])
-let response = await fetch(url);
-
-if (response.ok) { // если HTTP-статус в диапазоне 200-299
-  // получаем тело ответа (см. про этот метод ниже)
-  let json = await response.json();
-} else {
-  alert("Ошибка HTTP: " + response.status);
-}
-
-//let loadaverage = {
-//  name: 'John',
-//  surname: 'Smith'
-//};
-//
-//let response = await fetch('/article/fetch/post/loadaverage', {
-//  method: 'POST',
-//  headers: {
-//    'Content-Type': 'application/json;charset=utf-8'
-//  },
-//  body: JSON.stringify(loadaverage)
-//});
-//
-//let result = await response.json();
-//alert(result.message);
+let response = await fetch('/get_params', {
+  method: 'POST',
+  headers: {
+    'cpu cores': 'application/json;charset=utf-8'
+  },
+  body: JSON.stringify(user)
+});

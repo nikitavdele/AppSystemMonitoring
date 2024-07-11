@@ -21,5 +21,6 @@ from . import views
 urlpatterns = [
     path('about', views.about, kwargs={"name":"Никита", "age": 20}),
     path('contact', views.contact),
+    path('get_params', views.get_params),
     path('', views.index, name='index'),
 ]

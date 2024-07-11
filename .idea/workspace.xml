@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit script match html">
+    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit script test">
+      <change afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Студент\PycharmProjects\AppSystemMonitoring\DjangoFirstProject\DjangoFirstProject\static" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="SystemMonitoringApp" />
@@ -276,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720605493515</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="commit script test">
+      <option name="closed" value="true" />
+      <created>1720609476751</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1720609476751</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +353,7 @@
     <MESSAGE value="commit Table end 3" />
     <MESSAGE value="commit readme" />
     <MESSAGE value="commit script match html" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit script match html" />
+    <MESSAGE value="commit script test" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit script test" />
   </component>
 </project>

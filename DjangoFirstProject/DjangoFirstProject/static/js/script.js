@@ -6,11 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 let temp = document.getElementById('temp')
 console.log(temp.innerHTML)
-temp.innerHTML = "15%"
+temp.innerHTML = "16%"
 
-
+try {
   let response = await fetch('/get_params');
-  console.log(data)
+
   if (response.ok) {
     let data = await response.json();
 
@@ -22,6 +22,9 @@ temp.innerHTML = "15%"
   } else {
     throw new Error(`HTTP error! Status: ${response.status}`);
   }
+} catch (error) {
+  console.error("An error occurred:", error);
+}
 
 
 // fetch('/get_params')

@@ -65,7 +65,7 @@ def get_params(request):
             cpu_family_value.append(value)
             dk['cpu family'] = cpu_family_value
         if 'cpu cores' in ar_data[i]:
-            dk['cpu cores'] = ar_data[i+1].strip().split()[0]
+            dk['cpu_cores'] = ar_data[i+1].strip().split()[0]
 
     with open('cpuLoad', 'r', encoding='utf-8') as f:
         data = f.read()

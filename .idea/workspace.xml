@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit script test">
-      <change afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" afterDir="false" />
+    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit read files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/templates/DjangoFirstProject/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/main/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -294,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720609476751</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="commit read files">
+      <option name="closed" value="true" />
+      <created>1720693693498</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1720693693498</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +359,7 @@
     <MESSAGE value="commit readme" />
     <MESSAGE value="commit script match html" />
     <MESSAGE value="commit script test" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit script test" />
+    <MESSAGE value="commit read files" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit read files" />
   </component>
 </project>

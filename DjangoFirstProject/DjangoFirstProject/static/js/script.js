@@ -9,7 +9,28 @@ document.addEventListener('DOMContentLoaded', function() {
 //temp.innerHTML = "16%"
 
 fetch('/get_params', { method: 'GET' }).then(res => res.json()).then(function(data_names) {
-             console.log(data_names.MemFree)
+             let CPUCORES=document.getElementById('cpu_cores')
+                          console.log(CPUCORES.innerHTML)
+                          CPUCORES.innerHTML=data_names.cpu_cores
+
+             let MemTotal=document.getElementById('MemTotal')
+                          console.log(MemTotal.innerHTML)
+                          MemTotal.innerHTML=data_names.MemTotal
+
+
+             let MemFree=document.getElementById('MemFree')
+                          console.log(MemFree.innerHTML)
+                          MemFree.innerHTML=data_names.MemFree
+
+             let MemAvailable=document.getElementById('MemAvailable')
+                          console.log(MemAvailable.innerHTML)
+                          MemAvailable.innerHTML=data_names.MemAvailable
+
+             let SwapTotal=document.getElementById('SwapTotal')
+                          console.log(SwapTotal.innerHTML)
+                          SwapTotal.innerHTML=data_names.SwapTotal
+
+
 
         })
 

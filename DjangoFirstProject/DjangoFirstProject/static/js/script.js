@@ -23,7 +23,7 @@ fetch('/get_params', { method: 'GET' }).then(res => res.json()).then(function(da
 
             let cpu_MHz1=document.getElementById('cpu_MHz1')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz1.innerHTML=data_names.cpu_MHz1
+                          cpu_MHz1.innerHTML=data_names.cpu_MHz1+' MHz'
 
             let cpu_MHz2=document.getElementById('cpu_MHz2')
                           //console.log(CpuCores.innerHTML)

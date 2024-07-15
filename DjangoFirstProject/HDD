@@ -1,0 +1,10 @@
+Файл.система   Размер Использовано  Дост Использовано% Cмонтировано в
+tmpfs            768M         2,2M  766M            1% /run
+/dev/nvme0n1p4    29G          27G  743M           98% /
+tmpfs            3,8G         672K  3,8G            1% /dev/shm
+tmpfs            5,0M            0  5,0M            0% /run/lock
+tmpfs            3,8G            0  3,8G            0% /run/qemu
+/dev/nvme0n1p1    96M          45M   52M           47% /boot/efi
+tmpfs            768M         144K  768M            1% /run/user/1000
+/dev/nvme0n1p5   241G          35G  207G           15% /media/nick/Data
+/dev/nvme0n1p3   191G         140G   52G           73% /media/nick/Windows

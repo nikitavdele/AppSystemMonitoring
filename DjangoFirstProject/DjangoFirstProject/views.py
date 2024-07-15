@@ -55,11 +55,21 @@ def get_params(request):
     cpu_mhz_value=[]
     cpu_family_value=[]
 
+
     for i in range(len(ar_data)):
         if 'cpu MHz' in ar_data[i]:
             value = ar_data[i + 1].strip().split()[0]
             cpu_mhz_value.append(value)
-            dk['cpu MHz'] = cpu_mhz_value
+            for idx, mhz_value in enumerate(cpu_mhz_value):
+                dk[f'cpu_MHz{idx + 1}'] = mhz_value
+            #dk['cpu_MHz1'] = cpu_mhz_value[0]
+            # dk['cpu_MHz2'] = cpu_mhz_value[1]
+            # dk['cpu_MHz3'] = cpu_mhz_value[2]
+            # dk['cpu_MHz4'] = cpu_mhz_value[3]
+            # dk['cpu_MHz5'] = cpu_mhz_value[4]
+            # dk['cpu_MHz6'] = cpu_mhz_value[5]
+            # dk['cpu_MHz7'] = cpu_mhz_value[6]
+            # dk['cpu_MHz8'] = cpu_mhz_value[7]
         if 'cpu family' in ar_data[i]:
             value = ar_data[i + 1].strip().split()[0]
             cpu_family_value.append(value)
@@ -70,9 +80,13 @@ def get_params(request):
     with open('cpuLoad', 'r', encoding='utf-8') as f:
         data = f.read()
 
-    parts = data.split()
-    loadavg_values = [float(parts[i]) for i in range(3)]
-    dk['loadavg'] = loadavg_values
+    load_data = data.split()
+    dk['load_1min'] = load_data[0]
+    dk['load_5min'] = load_data[1]
+    dk['load_15min'] = load_data[2]
+
+    # loadavg_values = [float(parts[i]) for i in range(3)]
+    # dk['loadavg'] = loadavg_values
 
     with open('RAM', 'r', encoding='utf-8') as f:
         data = f.read()
@@ -88,21 +102,21 @@ def get_params(request):
         if 'SwapTotal' in partsRAM[i]:
             dk['SwapTotal'] = partsRAM[i+1].strip().split()[0]
 
+    with open('HDD', 'r', encoding='utf-8') as f:
+        data = f.readlines()
+
+    disk_data = []
+    for line in data[1:]:
+        parts = line.split()
+        dk['filesystem'] = parts[0]
+        dk['disk_size'] = parts[1]
+        dk['disk_used'] = parts[2]
+        dk['disk_free'] = parts[3]
+        dk['disk_used_percent'] = parts[4]
+        dk['mount_point'] = parts[5]
 
     return HttpResponse(json.dumps(dk))
 
-# def get_params(request):
-#     with open('cpu', 'r', encoding='utf-8') as f:
-#         data = f.read()
-#         # print(data)
-#     # print(data.split(':'))
-#     dk = {}
-#     ar_data = data.split(':')
-#     for i in range(len(ar_data)):
-#         print(ar_data[i].strip())
-#         if ar_data[i].strip() == 'cpu_MHz':
-#             dk['cpu_MHz'] = ar_data[i+1].strip()
-#     return HttpResponse(json.dumps(dk))
 
 def contact(request):
     return HttpResponse("<h2>Контакты</h2>")

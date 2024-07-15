@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit 2/4 group ready">
-      <change beforePath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoFirstProject/DjangoFirstProject/static/js/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="6e552cb8-5765-4b47-8b32-7cc1f5f2613f" name="Changes" comment="commit 2/4 group ready" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

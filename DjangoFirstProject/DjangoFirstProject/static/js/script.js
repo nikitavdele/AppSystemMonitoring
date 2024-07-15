@@ -1,8 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
-    //console.log("123");
+const request = new XMLHttpRequest();
 
-    // Другой код здесь
-});
 
 //let temp = document.getElementById('temp')
 //console.log(temp.innerHTML)
@@ -27,31 +24,31 @@ fetch('/get_params', { method: 'GET' }).then(res => res.json()).then(function(da
 
             let cpu_MHz2=document.getElementById('cpu_MHz2')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz2.innerHTML=data_names.cpu_MHz2
+                          cpu_MHz2.innerHTML=data_names.cpu_MHz2+' MHz'
 
             let cpu_MHz3=document.getElementById('cpu_MHz3')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz3.innerHTML=data_names.cpu_MHz3
+                          cpu_MHz3.innerHTML=data_names.cpu_MHz3+' MHz'
 
             let cpu_MHz4=document.getElementById('cpu_MHz4')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz4.innerHTML=data_names.cpu_MHz4
+                          cpu_MHz4.innerHTML=data_names.cpu_MHz4+' MHz'
 
             let cpu_MHz5=document.getElementById('cpu_MHz5')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz5.innerHTML=data_names.cpu_MHz5
+                          cpu_MHz5.innerHTML=data_names.cpu_MHz5+' MHz'
 
             let cpu_MHz6=document.getElementById('cpu_MHz6')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz6.innerHTML=data_names.cpu_MHz6
+                          cpu_MHz6.innerHTML=data_names.cpu_MHz6+' MHz'
 
             let cpu_MHz7=document.getElementById('cpu_MHz7')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz7.innerHTML=data_names.cpu_MHz7
+                          cpu_MHz7.innerHTML=data_names.cpu_MHz7+' MHz'
 
             let cpu_MHz8=document.getElementById('cpu_MHz8')
                           //console.log(CpuCores.innerHTML)
-                          cpu_MHz8.innerHTML=data_names.cpu_MHz8
+                          cpu_MHz8.innerHTML=data_names.cpu_MHz8+' MHz'
 
 
 
